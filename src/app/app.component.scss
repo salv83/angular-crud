@@ -1,0 +1,26 @@
+.left-column {
+  position: relative;
+  padding: 15px;
+  background: #ffffff;
+  height: 100%;
+  float: left;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
+  width: 48%;
+  z-index: 5;
+  padding: 2%;
+  min-height:300px;
+  box-shadow: 0px 2px 20px #000;
+  border-radius: 15px;
+  margin:10px;
+}
+
+.right-column {
+  background: #ffffff;
+  float: left;
+  width: 48%;
+  padding: 2%;
+  min-height:300px;
+  box-shadow: 0px 2px 20px #000;
+  border-radius: 15px;
+  margin:10px;
+}

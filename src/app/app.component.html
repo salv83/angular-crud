@@ -1,0 +1,13 @@
+<div class="left-column">
+
+    <app-table #table (addButtonClicked)="displayForm($event)" (tableElementSelected)="displayDetails($event)"></app-table>
+
+</div>
+
+<div class="right-column">
+
+    <app-form #form *ngIf="showForm" (saveButtonClicked)="saveElement($event)" (saveEditedDetails)="gotEditedElement($event)"></app-form>
+
+    <app-details #details *ngIf="showDetails" (editButtonClicked)="editElement($event)" (deleteButtonClicked)="deleteElement($event)"></app-details>
+
+</div>

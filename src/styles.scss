@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url(/assets/img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+app-root{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+

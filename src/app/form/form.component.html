@@ -1,0 +1,13 @@
+<form [formGroup]="crudForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label>Title</label>
+        <input class="form-control" formControlName="title" placeholder="title">
+    </div>
+
+    <div class="form-group">
+        <label>Description</label>
+        <input class="form-control" formControlName="description" placeholder="description">
+    </div>
+
+    <button class="btn btn-primary">Save</button>
+</form>

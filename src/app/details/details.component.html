@@ -1,0 +1,10 @@
+<p *ngIf="element">{{ element.title }}</p>
+
+<p *ngIf="element">{{ element.description }}</p>
+
+<div class="btn-group">
+    <button class="btn btn-info" (click) = "editClick()" >Edit</button>
+    <button class="btn btn-secondary" (click)="deleteClick()">Delete</button>
+</div>
+
+ 
